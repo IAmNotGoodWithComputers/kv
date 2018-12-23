@@ -1,0 +1,14 @@
+package main
+
+const ERR_USER_NOT_FOUND int = 3
+const ERR_DBFILE_UNREADABLE int = 4
+const ERR_CANNOT_CREATE_DBFILE int = 5
+const ERR_CANNOT_OPEN_DBFILE int = 6
+const ERR_CANNOT_INIT_SCHEMA int = 7
+
+const ERR_CANNOT_DELETE_KEY int = 100
+const ERR_CANNOT_READ_KEY int = 101
+const ERR_CANNOT_READ_VALUE int = 101
+const ERR_CANNOT_SAVE_VALUE int = 102
+
+const ERR_CANNOT_FLUSH_DB int = 999
